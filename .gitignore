@@ -1,3 +1,18 @@
+# Editors and IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/ # VS Code
+.idea/ # JetBrains IDEs
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -7,18 +22,51 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencies
+node_modules/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Build outputs
+dist/
+build/
+out/
+
+# Environment variables and dotenv environment variables file
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+*.cache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional Deno cache directory
+.deno
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# TypeScript v1 declaration files
+typings/
+
+# Temp
+.temp
+.tmp
+
+# Vite config
+.vite/
+
