@@ -15,6 +15,7 @@ export default function ChatScreen() {
     const appName = searchParams.get('app_name') || 'cloud_observability_agent';
 
     function advanceStage(step: number) {
+        console.log(currentStep)
         setCurrentStep((prev) => prev + step); //setCurrentStep(currentStep+step);
     };
 
